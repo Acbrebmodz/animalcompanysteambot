@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json());
 
 const client = new SteamUser();
-const STEAM_USERNAME = process.env.STEAM_USERNAME || 'simon-lee78';
-const STEAM_PASSWORD = process.env.STEAM_PASSWORD;
+const STEAM_USERNAME = 'simon-lee78';
+const STEAM_PASSWORD = 'Harley14';
 
 const ANIMAL_COMPANY_APP_ID = 4551040;
 
